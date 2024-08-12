@@ -1,0 +1,125 @@
+.container {
+    background-color: #40454a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* padding: 20px; */
+    color: #fff;
+    height: 100%;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    text-align: center;
+  }
+  .inp{
+display: flex;
+flex-direction: column;
+  }
+  input {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    width: 20vw;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 2px solid white;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  div > div {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  .existcss{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0b6ace;
+    padding: 20px;
+  }
+  .existcss p {
+    font-size: 1.2em; 
+    margin: 0;
+  }
+  
+  .existcss .question-label {
+    color: black; 
+    font-weight: bold;
+  }
+  
+  .existcss .question,
+  .existcss .answer {
+    font-weight: normal;
+    color: inherit; 
+  }
+  
+  .existcss .question {
+    font-size: 1.1em; 
+  }
+  
+  
+.del{
+  background-color: red;
+}
+.add{
+  background-color: green;
+}
+.loaderhead {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-bottom: 16px solid blue;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+.loadertext{
+  font-weight:600;
+  font-size: large;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
